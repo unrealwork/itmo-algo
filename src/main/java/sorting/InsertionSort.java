@@ -7,7 +7,7 @@ import mooc.EdxIO;
 
 public class InsertionSort {
 
-  public static void insertionSortPart(int[] ar, Consumer<Integer> swapEvent) {
+  private static void insertionSortPart(int[] ar, Consumer<Integer> swapEvent) {
     // Fill up this function
     swapEvent.accept(1);
     for (int i = 0; i < ar.length - 1; i++) {
@@ -24,6 +24,11 @@ public class InsertionSort {
     }
   }
 
+  /**
+   * Entry point.
+   *
+   * @param args program args.
+   */
   public static void main(String[] args) {
     try (EdxIO io = EdxIO.create()) {
       int n = io.nextInt();
