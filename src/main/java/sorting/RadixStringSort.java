@@ -4,9 +4,8 @@ import mooc.EdxIO;
 
 public class RadixStringSort {
 
-  public static final int LEFT_BOUND = 97;
-  public static final int RIGHT_BOUND = 123;
-  public static final char WHITESPACE = ' ';
+  private static final int LEFT_BOUND = 'a';
+  private static final char WHITESPACE = ' ';
 
   public static void main(String[] args) {
     try (final EdxIO io = EdxIO.create()) {
