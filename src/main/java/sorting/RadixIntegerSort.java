@@ -2,7 +2,7 @@ package sorting;
 
 import mooc.EdxIO;
 
-public class RadixSort {
+public class RadixIntegerSort {
 
   private static final int BITS_PER_BYTE = 8;
 
@@ -90,4 +90,6 @@ public class RadixSort {
       }
     }
   }
+
+
 }
